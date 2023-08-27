@@ -1,0 +1,35 @@
+:root{
+    --fonte-principal: 'Inter', sans-serif;
+    --cor-primaria: #590256;
+    --cor-secundaria: #2E0135;
+    --cor-terciaria: #8F8B8B;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    background: url("../img/montanhas.png");
+    background-color: var(--cor-primaria);
+    background-size: cover;
+    background-position: center;
+}
+
+.round-1rem {
+    border-radius: 1rem;
+}
+
+.svg-white{
+    fill: white;
+}
+
+.text-color{
+    color: var(--cor-terciaria)
+}
+
+.svg-gray{
+    fill: var(--cor-terciaria);
+}
+
+.footer{
+    height: 140px;
+    background-color: var(--cor-secundaria);    
+}
