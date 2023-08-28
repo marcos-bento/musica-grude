@@ -10,6 +10,7 @@ body{
     background: url("../img/montanhas.png");
     background-color: var(--cor-primaria);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
@@ -21,6 +22,20 @@ body{
     fill: white;
 }
 
+.container_icons{
+    width: 100px;
+    height: 100px;
+}
+
+.icons{
+    width: 58px;
+    height: 58px;
+}
+
+.botao-pressionado{
+    background: linear-gradient(224deg, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
 .text-color{
     color: var(--cor-terciaria)
 }
@@ -29,7 +44,46 @@ body{
     fill: var(--cor-terciaria);
 }
 
+.refresh_icon{
+    width: 80px;
+    height: 80px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%; /* Proporção de 16:9 (altura/largura) */
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
 .footer{
     height: 140px;
     background-color: var(--cor-secundaria);    
+}
+
+.footer_icons{
+    width: 38px;
+    height: 38px;
+}
+
+.fonte_pequena{
+    font-size: 12px;
+}
+
+/* Media query para telas acima de 1440px */
+
+@media screen and (min-width: 1440px){
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
