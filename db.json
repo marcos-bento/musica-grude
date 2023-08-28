@@ -1,0 +1,24 @@
+{
+    "videos": [
+        {
+            "id": 1, 
+            "url": "https://www.youtube.com/embed/hRkAZDT6UGo",
+            "titulo": "água mineral",
+            "adrenalina": true,
+            "amor": false,
+            "nostalgia": false,
+            "brasil": true,
+            "batidao": false
+        },
+        {
+            "id": 2, 
+            "url": "https://www.youtube.com/embed/4_xbg37eDLg",
+            "titulo": "dança da mãozinha",
+            "adrenalina": true,
+            "amor": false,
+            "nostalgia": false,
+            "brasil": true,
+            "batidao": false
+        }
+    ]
+}
