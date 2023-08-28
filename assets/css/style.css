@@ -86,4 +86,10 @@ body{
         position: absolute;
         bottom: 0;
     }
+
+    .iframe-container{
+        width: 600px;
+        padding-bottom: 20%;
+        margin-bottom: 20%;
+    }
 }
